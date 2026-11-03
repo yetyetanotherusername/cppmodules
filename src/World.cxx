@@ -1,8 +1,6 @@
-module;
-
-#include <string>
-
 export module world;
+
+import std;
 
 export struct World
 {

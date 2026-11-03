@@ -1,11 +1,9 @@
-
-#include <iostream>
-
+import std;
 import hello;
 import world;
 
 int main (int argc, char* argv[])
 {
-    std::cout << Hello::get() << World::get() << std::endl;
+    std::println ("{} {}", Hello::get(), World::get());
     return 0;
 }
